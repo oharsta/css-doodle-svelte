@@ -1,3 +1,6 @@
-# Svelte Doodle examples
+## CCS-Doodle examples in Svelte
 
-See https://css-doodle.com/
+```
+yarn install
+yarn dev
+```
