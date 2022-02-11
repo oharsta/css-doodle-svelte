@@ -8,6 +8,7 @@
     import TransformColor from "./TransformColor.svelte";
     import Transform from "./Transform.svelte";
     import TransformColorRotate from "./TransformColorRotate.svelte";
+    import Animated from "./Animated.svelte";
 
     const doodles = [
         {name: "basic", component: Basic},
@@ -19,6 +20,7 @@
         {name: "pixels", component: Pixel},
         {name: "background", component: Background},
         {name: "shape", component: Shape},
+        {name: "animation", component: Animated},
     ];
     let currentDoodle = doodles[0];
 
